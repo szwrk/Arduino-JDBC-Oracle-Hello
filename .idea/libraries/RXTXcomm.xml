@@ -2,6 +2,7 @@
   <library name="RXTXcomm">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../_lib/rxtx-2.1-7-bins-r2/RXTXcomm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../_lib/ojdbc6.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

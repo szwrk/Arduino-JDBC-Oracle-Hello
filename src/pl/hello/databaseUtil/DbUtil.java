@@ -1,4 +1,4 @@
-package pl.hello;
+package pl.hello.databaseUtil;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -18,7 +18,7 @@ public class DbUtil {
         else {
             try {
                 Properties prop = new Properties();
-                FileInputStream inFileInputStream = new FileInputStream("c:\\db.properties");
+                FileInputStream inFileInputStream = new FileInputStream("db.properties");
                 prop.load(inFileInputStream);
 
                 String driver = prop.getProperty("driver");
