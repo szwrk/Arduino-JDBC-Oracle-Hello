@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbd68b65-2d29-454b-9084-84be8ee02077" name="Default Changelist" comment="Refactor">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/RXTXcomm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/RXTXcomm.xml" afterDir="false" />
+    <list default="true" id="fbd68b65-2d29-454b-9084-84be8ee02077" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arduino.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Arduino.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arduino/pl/hello/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arduino/pl/hello/SerialTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arduino/pl/hello/SerialTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppForArduino" beforeDir="false" afterPath="$PROJECT_DIR$/AppForArduino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/hello/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/hello/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/hello/arduino/Serial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/hello/arduino/Serial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/hello/dao/EntityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/hello/dao/EntityDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/hello/databaseUtil/DbUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/hello/databaseUtil/DbUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/hello/model/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/hello/model/Entity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +25,17 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@192.168.56.102" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@192.168.56.102" type="feb32156:DbDataSourceImpl" />
+        <item name="AREK: schema" type="3abd1b6a:OraImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -74,6 +75,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -137,19 +139,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.hello.MainTest" />
-      <module name="Arduino" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Serial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.hello.arduino.Serial" />
       <module name="Arduino" />
@@ -163,20 +152,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test" />
+      <module name="Arduino" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Serial" />
-      <item itemvalue="Application.MainTest" />
       <item itemvalue="Application.Entity" />
       <item itemvalue="Application.App" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Serial" />
         <item itemvalue="Application.Entity" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,12 +189,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4a55ca94" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@497258ae" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4a55ca94" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3829673e" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@497258ae" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5c5d023a" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -208,8 +210,19 @@
       <option name="presentableId" value="Default" />
       <updated>1564788794515</updated>
       <workItem from="1564788797213" duration="19669000" />
-      <workItem from="1564956055532" duration="13828000" />
+      <workItem from="1564956055532" duration="17057000" />
+      <workItem from="1565216511848" duration="139000" />
+      <workItem from="1565295593902" duration="451000" />
+      <workItem from="1565296064824" duration="2730000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactor">
+      <created>1565127465978</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565127465978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

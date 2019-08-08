@@ -13,6 +13,7 @@ import java.io.InputStreamReader;
 
 public class Serial implements SerialPortEventListener {
 
+
     private String inputLine = "";
     private SerialPort serialPort;
     // Na windowsie domyślnie posługujemy się portem COM3
@@ -58,6 +59,7 @@ public class Serial implements SerialPortEventListener {
             serialPort.close();
         }
     }
+
     /**
      * Metoda nasłuchuje na dane na wskazanym porcie i wyświetla je w konsoli
      */
@@ -74,7 +76,11 @@ public class Serial implements SerialPortEventListener {
             } catch (Exception e) {
                 System.err.println("void serialEvent(SerialPortEvent oEvent -" + e.toString());
             }
+
         }
     }
+    public String getInputLine() {
+        return inputLine;
     }
+}
 

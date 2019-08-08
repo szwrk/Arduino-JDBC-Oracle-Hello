@@ -2,6 +2,6 @@ void setup(){
   Serial.begin(9600);
 }
   void loop(){
-  Serial.println("Hello world");
-  delay(10000);
+  Serial.write("Hello world\n"); // with println: java.io.IOException: Underlying input stream returned zero bytes
+  delay(30000);
 }

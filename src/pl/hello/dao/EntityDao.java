@@ -15,7 +15,7 @@ public class EntityDao {
     }
 
     public void doInsert(Entity entity) {
-        System.out.print("\n[INSERT in progress] ... ");
+        System.out.print("[INSERT in progress] ...\n");
         try {
             connection = DbUtil.getConnection();
             PreparedStatement st = connection.prepareStatement("INSERT INTO HIS.TEST (TEKST) VALUES (?)");
