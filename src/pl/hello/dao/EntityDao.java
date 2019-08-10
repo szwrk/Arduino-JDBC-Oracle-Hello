@@ -18,8 +18,8 @@ public class EntityDao {
         System.out.print("[INSERT in progress] ...\n");
         try {
             connection = DbUtil.getConnection();
-            PreparedStatement st = connection.prepareStatement("INSERT INTO HIS.TEST (TEKST) VALUES (?)");
-            st.setString(1, entity.getTekst());
+            PreparedStatement st = connection.prepareStatement("INSERT INTO HIS.TEST (WARTOSC) VALUES (?)");
+            st.setDouble(1, entity.getWartosc());
             st.executeUpdate();
             st.close();
         } catch (SQLException ex) {

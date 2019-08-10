@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="fbd68b65-2d29-454b-9084-84be8ee02077" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppForArduino" beforeDir="false" afterPath="$PROJECT_DIR$/AppForArduino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/hello/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/hello/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arduino/Test/SerialTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arduino/Test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arduino/pl/hello/arduino/Serial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arduino/pl/hello/arduino/Serial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arduino/pl/hello/dao/EntityDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arduino/pl/hello/dao/EntityDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arduino/pl/hello/model/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arduino/pl/hello/model/Entity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/hello/arduino/Serial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/hello/arduino/Serial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/hello/dao/EntityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/hello/dao/EntityDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/hello/model/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/hello/model/Entity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +74,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../_lib/ojdbc6.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -189,12 +193,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@497258ae" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@456cca66" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@497258ae" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5c5d023a" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@456cca66" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@373fcfcc" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -213,7 +217,8 @@
       <workItem from="1564956055532" duration="17057000" />
       <workItem from="1565216511848" duration="139000" />
       <workItem from="1565295593902" duration="451000" />
-      <workItem from="1565296064824" duration="2730000" />
+      <workItem from="1565296064824" duration="3600000" />
+      <workItem from="1565434076637" duration="2639000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor">
       <created>1565127465978</created>

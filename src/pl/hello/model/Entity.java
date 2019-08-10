@@ -2,17 +2,17 @@ package pl.hello.model;
 
 public class Entity {
 
-    private String tekst;
+    private Double wartosc;
 
-    public Entity(String tekst) {
-        this.tekst = tekst;
+    public Entity(Double wart) {
+        this.wartosc = wart;
     }
 
-    public String getTekst() {
-        return tekst;
+    public Double getWartosc() {
+        return wartosc;
     }
 
-    public void setTekst(String tekst) {
-        this.tekst = tekst;
+    public void setTekst(String wart) {
+        this.wartosc = wartosc;
     }
 }

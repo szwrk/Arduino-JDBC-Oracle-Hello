@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 public class Serial implements SerialPortEventListener {
 
 
-    private String inputLine = "";
+    private Double inputLine;
     private SerialPort serialPort;
     // Na windowsie domyślnie posługujemy się portem COM3
     private static final String PORT_NAME = "COM3";
@@ -66,7 +66,7 @@ public class Serial implements SerialPortEventListener {
     public synchronized void serialEvent(SerialPortEvent oEvent) {
         if (oEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
             try {
-                inputLine = input.readLine();
+                inputLine = Double.valueOf(input.readLine());
 
                 Entity entity = new Entity(inputLine);
                 EntityDao entityDao = new EntityDao();
@@ -79,8 +79,7 @@ public class Serial implements SerialPortEventListener {
 
         }
     }
-    public String getInputLine() {
-        return inputLine;
+
     }
-}
+
 
